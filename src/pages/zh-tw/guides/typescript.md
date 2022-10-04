@@ -1,13 +1,17 @@
 ---
 layout: ~/layouts/MainLayout.astro
 title: TypeScript
-description: Learn how to use Astro's built-in TypeScript support.
+description: 學習如何使用 Astro 內建的 Typescript 支援
 i18nReady: true
 ---
 
 Astro ships with built-in support for [TypeScript](https://www.typescriptlang.org/). You can import `.ts` and `.tsx` files in your Astro project, write TypeScript code directly inside your [Astro component](/en/core-concepts/astro-components/#the-component-script), and even use an [`astro.config.ts`](/en/guides/configuring-astro/#the-astro-config-file) file if you like.
 
+Astro 內建了 [TypeScript](https://www.typescriptlang.org/) 的支援，你可以在 Astro 的專案中導入 `.ts` 和 `.tsx` 的檔案或在你的 [Astro component](/en/core-concepts/astro-components/#the-component-script) 寫入 Typescript 程式碼，甚至可以使用 [`astro.config.ts`](/en/guides/configuring-astro/#the-astro-config-file)。
+
 Using TypeScript, you can prevent errors at runtime by defining the shapes of objects and components in your code. For example, if you use TypeScript to [type your component's props](#component-props), you'll get an error in your editor if you set a prop that your component doesn't accept. 
+
+使用 Typescript，你可以在程式碼中定義物件和組建的形狀來預防在運行時的錯誤。例如：如果你使用 Typescript 來裝飾你的組件 prop，你將得到一個錯誤，當你傳入了組件不接受的 prop。
 
 You don't need to write TypeScript code in your Astro projects to benefit from it. Astro always treats your component code as TypeScript, and the [Astro VSCode Extension](/en/editor-setup/) will infer as much as it can to provide autocompletion, hints, and errors in your editor.
 
